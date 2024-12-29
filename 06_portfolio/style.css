@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/****************************** FONTS *******************************/
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-800 {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/****************************** FARVER *******************************/
+html {
+  --primary: #0231fd;
+  --secondary: #ffffff;
+  --tetiary: #000000;
+  --accent: #f9f730;
+  --dark: #0c86fa;
+}
+/****************************** TYPOGRAFI *******************************/
+
+@media (min-width: 800px) {
+  h1 {
+    color: var(--secondary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7rem;
+  }
+
+  h2 {
+    color: var(--secondary);
+    font-family: "Raleway", serif;
+    font-size: 4.5rem;
+    padding: 2rem;
+  }
+
+  h3 {
+    color: var(--primary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5dvw;
+  }
+
+  h4 {
+    color: var(--tetiary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+  }
+
+  h5 {
+    color: var(--secondary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1dvw;
+  }
+
+  h6 {
+    color: var(--tetiary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  p {
+    color: var(--primary);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10px 10px 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    color: var(--secondary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+  }
+
+  h2 {
+    color: var(--secondary);
+    font-family: "Raleway", serif;
+    font-size: 3rem;
+    padding: 1rem;
+  }
+
+  h3 {
+    color: var(--primary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+  }
+
+  h4 {
+    color: var(--tetiary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+  }
+  h5 {
+    color: var(--secondary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+  }
+
+  h6 {
+    color: var(--tetiary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  p {
+    color: var(--primary);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10px 10px 10px;
+  }
+}
+
+li::marker {
+  color: #ffffff;
+}
+
+/****************************** BAGGRUNDFARVER *******************************/
+@media (min-width: 800px) {
+  .temaer_section {
+    background-color: var(--primary);
+    width: 1440px;
+    height: 150px;
+  }
+}
+@media (max-width: 800px) {
+  .temaer_section {
+    background-color: var(--primary);
+    width: 800px;
+    height: 100px;
+  }
+}
+
+.white_section {
+  background-color: var(--secondary);
+}
+
+#temaer_section {
+  background-color: var(--primary);
+}
+
+#ommig_section {
+  background-color: var(--primary);
+}
+
+.tema_overskrifter {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/****************************** BOX TEMA *******************************/
+@media (min-width: 800px) {
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    background-color: var(--secondary);
+    color: var(--secondary);
+    height: 200px;
+    width: 400px;
+    border: 2px solid var(--primary);
+    box-shadow: 10px 10px lightgray;
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .box1 a,
+  .box2 a,
+  .box3 a,
+  .box4 a,
+  .box5 a,
+  .box6 a {
+    color: var(--tetiary);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+  }
+
+  .box1 a:hover,
+  .box2 a:hover,
+  .box3 a:hover,
+  .box4 a:hover,
+  .box5 a:hover,
+  .box6 a:hover {
+    color: var(--primary);
+  }
+}
+
+@media (max-width: 800px) {
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    background-color: var(--secondary);
+    color: var(--secondary);
+    height: 150px;
+    width: 350px;
+    border: 2px solid var(--primary);
+    box-shadow: 10px 10px lightgray;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .box1 a,
+  .box2 a,
+  .box3 a,
+  .box4 a,
+  .box5 a,
+  .box6 a {
+    color: var(--tetiary);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+  }
+
+  .box1 a:hover,
+  .box2 a:hover,
+  .box3 a:hover,
+  .box4 a:hover,
+  .box5 a:hover,
+  .box6 a:hover {
+    color: var(--primary);
+  }
+}
+
+@media (min-width: 800px) {
+  .box7,
+  .box8,
+  .box9,
+  .box10,
+  .box11,
+  .box12 {
+    background-color: var(--secondary);
+    color: var(--secondary);
+    height: 80px;
+    width: 110px;
+    border: 2px solid var(--tetiary);
+    box-shadow: 10px 10px darkblue;
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px 50px 50px;
+  }
+
+  .box7 a,
+  .box8 a,
+  .box9 a,
+  .box10 a,
+  .box11 a,
+  .box12 a {
+    color: var(--tetiary);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+  }
+  .box7 a:hover,
+  .box8 a:hover,
+  .box9 a:hover,
+  .box10 a:hover,
+  .box11 a:hover,
+  .box12 a:hover {
+    color: var(--dark);
+  }
+}
+
+@media (max-width: 800px) {
+  .box7,
+  .box8,
+  .box9,
+  .box10,
+  .box11,
+  .box12 {
+    display: none;
+  }
+
+  .box7 a,
+  .box8 a,
+  .box9 a,
+  .box10 a,
+  .box11 a,
+  .box12 a {
+    display: none;
+  }
+  .box7 a:hover,
+  .box8 a:hover,
+  .box9 a:hover,
+  .box10 a:hover,
+  .box11 a:hover,
+  .box12 a:hover {
+    display: none;
+  }
+}
+/****************************** 01-06 *******************************/
+
+@media (max-width: 800px) {
+  .images {
+    padding: 2rem;
+  }
+
+  .text {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .images {
+    padding: 3rem;
+  }
+
+  .text {
+    padding: 2rem;
+  }
+}
