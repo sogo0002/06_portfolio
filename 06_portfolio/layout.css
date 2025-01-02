@@ -45,7 +45,6 @@ img {
 .grid_1 {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 30px 30px 30px 30px;
   align-items: center;
   justify-content: center;
 }

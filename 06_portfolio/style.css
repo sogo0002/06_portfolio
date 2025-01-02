@@ -320,11 +320,20 @@ li::marker {
 
 @media (max-width: 800px) {
   .images {
-    padding: 2rem;
+    padding: 3rem;
   }
 
   .text {
-    padding: 2rem;
+    margin: 50px 50px 50px 50px;
+  }
+  iframe {
+    margin-left: 1rem;
+    height: 50dvw;
+    width: 80dvw;
+  }
+
+  .lottiefile {
+    margin-left: 8rem;
   }
 }
 
@@ -335,5 +344,15 @@ li::marker {
 
   .text {
     padding: 2rem;
+  }
+
+  iframe {
+    margin-left: 3rem;
+    height: 315px;
+    width: 560px;
+  }
+
+  .lottiefile {
+    margin-left: 14rem;
   }
 }
