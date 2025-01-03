@@ -34,6 +34,11 @@ img {
   text-decoration: none;
 }
 
+.hero_content a:hover {
+  color: var(--secondary);
+  transition: 0.5s;
+}
+
 /****************************** HERO *******************************/
 
 .forside_list {

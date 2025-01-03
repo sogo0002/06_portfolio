@@ -203,6 +203,7 @@ li::marker {
   .box5 a:hover,
   .box6 a:hover {
     color: var(--primary);
+    transition: 0.5s;
   }
 }
 
@@ -244,6 +245,7 @@ li::marker {
   .box5 a:hover,
   .box6 a:hover {
     color: var(--primary);
+    transition: 0.5s;
   }
 }
 
@@ -286,6 +288,7 @@ li::marker {
   .box11 a:hover,
   .box12 a:hover {
     color: var(--dark);
+    transition: 0.5s;
   }
 }
 
@@ -355,4 +358,9 @@ li::marker {
   .lottiefile {
     margin-left: 14rem;
   }
+}
+
+h4:hover {
+  color: var(--primary);
+  transition: 0.8s;
 }
