@@ -106,7 +106,6 @@ img {
     justify-content: center;
     background-color: var(--primary);
     height: 200px;
-    width: auto;
   }
 }
 @media (max-width: 800px) {
