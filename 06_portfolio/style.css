@@ -77,7 +77,9 @@ html {
   p {
     color: var(--primary);
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px 10px 10px 10px;
+    margin-top: 10px;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 }
 
@@ -123,7 +125,9 @@ html {
   p {
     color: var(--primary);
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px 10px 10px 10px;
+    margin-top: 10px;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 }
 
@@ -363,4 +367,27 @@ li::marker {
 h4:hover {
   color: var(--primary);
   transition: 0.8s;
+}
+
+.linktosite {
+  background-color: var(--primary);
+  color: var(--secondary);
+  height: 50px;
+  width: 260px;
+  border: 2px solid var(--tetiary);
+  box-shadow: 10px 10px rgb(214, 214, 216);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.linktosite a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
