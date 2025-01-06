@@ -184,9 +184,9 @@ li::marker {
     box-shadow: 10px 10px lightgray;
     margin-top: 60px;
     text-align: center;
-    align-items: center;
+    align-items: center; /* Centrer vertikalt */
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centrer horisontalt */
   }
   .box1 a,
   .box2 a,
@@ -226,9 +226,9 @@ li::marker {
     box-shadow: 10px 10px lightgray;
     margin-top: 40px;
     text-align: center;
-    align-items: center;
+    align-items: center; /* Centrer vertikalt */
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centrer horisontalt */
   }
   .box1 a,
   .box2 a,
@@ -268,9 +268,9 @@ li::marker {
     box-shadow: 10px 10px darkblue;
     margin-top: 60px;
     text-align: center;
-    align-items: center;
+    align-items: center; /* Centrer vertikalt */
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centrer horisontalt */
     margin: 50px 50px 50px 50px;
   }
 
@@ -334,7 +334,7 @@ li::marker {
     margin: 50px 50px 50px 50px;
   }
   iframe {
-    margin-left: 1rem;
+    margin-left: 2.2rem;
     height: 50dvw;
     width: 80dvw;
   }
@@ -377,9 +377,9 @@ h4:hover {
   border: 2px solid var(--tetiary);
   box-shadow: 10px 10px rgb(214, 214, 216);
   text-align: center;
-  align-items: center;
+  align-items: center; /* Centrer vertikalt */
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Centrer horisontalt */
   margin-left: auto;
   margin-top: 20px;
   margin-right: 20px;
@@ -390,4 +390,16 @@ h4:hover {
   color: var(--secondary);
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.cv_container {
+  display: flex; /* Brug flexbox til centrering */
+  justify-content: center; /* Centrer horisontalt */
+  align-items: center; /* Centrer vertikalt */
+  height: 100%; /* Fyld hele højden af skærmen */
+}
+
+.cv {
+  max-width: 800px;
+  height: auto; /* Bevar billedets proportioner */
 }
